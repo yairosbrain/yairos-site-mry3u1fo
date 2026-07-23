@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מוסך אקספרס פתח תקווה | אמינות, שירות אקספרס ושקיפות מלאה</title>
+  <meta name="description" content="מוסך אקספרס פתח תקווה באזור התעשייה סגולה. מתחייבים לעמידה בזמנים קצרים, אמינות ללא פשרות, שירות שינוע לטסט וטיפולים תקופתיים מהירים.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { navy: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a', 950: '#020617' }, sky: { 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1' }, whatsapp: '#22c55e', gold: '#f59e0b' }, fontFamily: { sans: ['Heebo', 'sans-serif'] } } } }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans overflow-x-hidden">
+  <div class="bg-navy-950 text-white text-sm py-2 px-4 sticky top-0 z-50 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center gap-4">
+        <span class="flex items-center gap-1 text-sky-500 font-bold"><span class="h-2 w-2 rounded-full bg-red-500 animate-ping"></span> שירות אקספרס פתוח עכשיו!</span>
+        <span class="hidden md:inline text-slate-400">|</span>
+        <span class="hidden md:inline text-slate-300"><i class="fa-solid fa-location-dot text-sky-500 ml-1" aria-hidden="true"></i> אזור התעשייה סגולה, פתח תקווה</span>
+      </div>
+      <a href="tel:039200000" class="hover:text-sky-500 transition-colors flex items-center gap-1.5 font-bold text-base"><i class="fa-solid fa-phone text-sky-500" aria-hidden="true"></i> <span>חייגו עכשיו: 03-9200000</span></a>
+    </div>
+  </div>
+  <header class="bg-white/95 backdrop-blur-md shadow-sm sticky top-[40px] z-40 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="bg-gradient-to-br from-navy-900 to-sky-600 text-white p-2.5 rounded-xl shadow-md group-hover:scale-105 transition-transform">
+          <i class="fa-solid fa-gauge-high text-xl" aria-hidden="true"></i>
+        </div>
+        <div><span class="block text-xl font-black text-navy-900 tracking-tight leading-none">מוסך אקספרס</span><span class="block text-xs font-bold text-sky-600 tracking-widest mt-1">פתח תקווה</span></div>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 font-medium text-slate-600">
+        <a href="#hero" class="hover:text-sky-600 transition-colors">ראשי</a>
+        <a href="#lookup" class="hover:text-sky-600 transition-colors flex items-center gap-1">בדיקת טסט <span class="bg-red-100 text-red-600 text-[10px] px-1.5 py-0.5 rounded-full font-bold">חדש!</span></a>
+        <a href="#values" class="hover:text-sky-600 transition-colors">ההבטחה שלנו</a>
+        <a href="#services" class="hover:text-sky-600 transition-colors">סל שירותים</a>
+        <a href="#contact" class="hover:text-sky-600 transition-colors">צור קשר</a>
+      </nav>
+      <a href="https://wa.me/972500000000" target="_blank" rel="noopener" class="bg-whatsapp hover:bg-whatsapp/90 text-white font-bold px-4 py-2 rounded-xl text-sm flex items-center gap-2 shadow-md hover:shadow-lg transition-all"><i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i> <span>תיאום תור מהיר</span></a>
+    </div>
+  </header>
+  <section id="hero" class="relative bg-gradient-to-br from-navy-950 via-navy-900 to-slate-900 text-white pt-16 pb-24 px-4 overflow-hidden">
+    <div class="max-w-7xl mx-auto relative z-10 text-center lg:text-right">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">הבחירה הבטוחה והמהירה ביותר בפתח תקווה</h1>
+      <p class="text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 mt-6 font-light leading-relaxed">מחפשים מוסך אמין בסגולה? מתחייבים לאבחון מדויק, עבודה מהירה ושקיפות מלאה. איסוף והחזרה מבית הלקוח.</p>
+      <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-8">
+        <a href="https://wa.me/972500000000" target="_blank" rel="noopener" class="bg-whatsapp text-white font-bold px-8 py-4 rounded-2xl flex items-center justify-center gap-3 shadow-lg">תיאום תור מהיר בוואטסאפ</a>
+        <a href="#lookup" class="bg-slate-800 border border-slate-700 font-bold px-8 py-4 rounded-2xl flex items-center justify-center gap-2">בדיקת תוקף טסט</a>
+      </div>
+    </div>
+  </section>
+  <section id="lookup" class="py-16 px-4 bg-slate-100 relative -mt-10 z-20 max-w-5xl mx-auto rounded-3xl shadow-xl border border-slate-200/50">
+    <div class="text-center mb-8">
+      <h2 class="text-2xl sm:text-3xl font-black text-navy-900">בדיקת תוקף טסט שנתי</h2>
+      <p class="text-slate-600 mt-2">הזינו מספר רישוי לבדיקת נתוני רכב רשמיים</p>
+    </div>
+    <form id="plate-lookup-form" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+      <div class="flex flex-col md:flex-row gap-3">
+        <input type="text" id="plate-input" placeholder="הזינו מספר רכב" class="w-full px-4 py-4 rounded-xl border-2 border-slate-200 focus:border-sky-500 outline-none text-center text-xl font-bold" maxlength="9" required>
+        <button type="submit" id="lookup-btn" class="bg-sky-600 hover:bg-sky-700 text-white font-bold px-8 py-4 rounded-xl transition-all">בדוק במאגר</button>
+      </div>
+    </form>
+    <div id="lookup-loading" class="hidden mt-6 text-center text-sky-600 font-bold">מתחבר למאגר משרד התחבורה...</div>
+    <div id="lookup-error" class="hidden mt-6 bg-red-50 p-6 rounded-2xl text-center text-red-800 font-medium"></div>
+    <div id="lookup-result" class="hidden mt-6 bg-white p-6 rounded-2xl border border-slate-200">
+      <div id="test-warning-banner" class="hidden mb-6 bg-amber-50 border border-amber-200 p-4 rounded-xl font-bold text-amber-900"></div>
+      <h3 id="car-title" class="text-xl font-black text-navy-900 mb-4"></h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+        <div class="bg-slate-50 p-3 rounded-lg"><span class="block text-xs text-slate-400">שנת ייצור</span><span id="car-year" class="font-bold"></span></div>
+        <div class="bg-slate-50 p-3 rounded-lg"><span class="block text-xs text-slate-400">צבע</span><span id="car-color" class="font-bold"></span></div>
+        <div class="bg-slate-50 p-3 rounded-lg"><span class="block text-xs text-slate-400">תוקף טסט</span><span id="car-test-expiry" class="font-bold"></span></div>
+      </div>
+      <div class="mt-6 bg-sky-50 p-4 rounded-xl space-y-2">
+        <label for="mileage-input" class="block text-sm font-bold text-sky-900">הזינו קילומטראז' להמלצת טיפול:</label>
+        <div class="flex gap-2">
+          <input type="number" id="mileage-input" class="w-full px-3 py-2 rounded-lg border border-slate-200" placeholder="לדוגמה: 45000">
+          <button type="button" id="mileage-btn" class="bg-sky-600 text-white px-4 py-2 rounded-lg font-bold">חשב</button>
+        </div>
+        <p id="mileage-recommendation" class="text-xs text-sky-800 font-medium hidden mt-2"></p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="py-20 px-4 bg-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div class="lg:col-span-5 bg-slate-50 p-8 rounded-3xl border border-slate-200">
+          <h3 class="text-xl font-bold text-navy-900 mb-6">פרטי קשר</h3>
+          <p class="text-slate-600 mb-2"><i class="fa-solid fa-location-dot ml-2"></i> רחוב גזית 10, אזור התעשייה סגולה, פתח תקווה</p>
+          <p class="text-slate-600"><i class="fa-solid fa-phone ml-2"></i> <a href="tel:039200000" class="font-bold">03-9200000</a></p>
+        </div>
+        <div class="lg:col-span-7 relative rounded-3xl overflow-hidden border border-slate-200 h-[400px]"><div id="map-container" class="w-full h-full"></div></div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-navy-950 text-slate-400 py-12 text-center text-xs">© <span id="copyright-year"></span> מוסך אקספרס פתח תקווה. כל הזכויות שמורות.</footer>
+  <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
